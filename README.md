@@ -6,6 +6,10 @@
 - Mecanismul de Caching realizează stocarea rezultatului pentru oricare algoritm intens computațional (i.e. după execuția acestuia).
 Astfel, rezultatul memorat este disponibil pe viitor, dacă utilizatorul efectuează din nou aceeași interogare, și poate fi returnat direct
 (i.e. fără a executa din nou algoritmul în cauză)
+
+
+
+
 Exemplu de rulare:
 LazyNumberDetails lnd;
 lnd = new LazyNumberDetails(23); // (1) **none (lazy eval.)** -> no user action
